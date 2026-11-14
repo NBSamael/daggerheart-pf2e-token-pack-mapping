@@ -1,0 +1,37 @@
+{
+  "daggerheart-pf2e-token-pack-mapping-nbs": {
+    "Settings": {
+      "Priority": {
+        "Name": "Art priority",
+        "Label": "Give this module priority",
+        "Hint": "Puts this module first among compendium art providers (ahead of Daggerheart Core Rulebook, for example). You can adjust the order at any time in Core settings, \"Compendium Art\" menu."
+      },
+      "Replace": {
+        "Name": "Already imported adversaries",
+        "Label": "Apply art",
+        "Hint": "Replaces the portraits and tokens of adversaries already in the world (and their tokens placed on scenes) with this module's art. Compendium art is only applied at import time."
+      }
+    },
+    "Priority": {
+      "Title": "Art priority",
+      "Body": "Other modules provide art for Daggerheart adversaries and currently take precedence over this one:",
+      "Hint": "This module will be placed first for the 108 adversaries it covers; other adversaries keep the art from other modules. A world reload is required.",
+      "AlreadyTop": "This module already has compendium art priority.",
+      "Done": "This module now has compendium art priority."
+    },
+    "Replace": {
+      "Title": "Apply art to world adversaries",
+      "Summary": "{actors} world adversary(ies) and {tokens} token(s) placed on {scenes} scene(s) don't use this module's art yet.",
+      "Portraits": "Actor portraits",
+      "Prototypes": "Prototype tokens",
+      "Placed": "Tokens already placed on scenes ({count})",
+      "ActorList": "Show affected adversaries",
+      "Hint": "Only adversaries imported from the Daggerheart compendium and covered by this module are changed.",
+      "Apply": "Apply",
+      "Done": "Art applied: {actors} actor(s), {tokens} token(s) on scenes.",
+      "NothingToDo": "Nothing to do: the {count} world adversary(ies) covered by this module already use its art.",
+      "LoadError": "Could not load the module's mapping file (see console).",
+      "GMOnly": "Only a GM can apply art."
+    }
+  }
+}

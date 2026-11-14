@@ -1,0 +1,37 @@
+{
+  "daggerheart-pf2e-token-pack-mapping-nbs": {
+    "Settings": {
+      "Priority": {
+        "Name": "Priorité des illustrations",
+        "Label": "Rendre ce module prioritaire",
+        "Hint": "Place ce module en tête des fournisseurs d'illustrations de compendium (devant Daggerheart Core Rulebook, par exemple). Vous pouvez ajuster l'ordre à tout moment dans les paramètres principaux, menu « Compendium Art »."
+      },
+      "Replace": {
+        "Name": "Adversaires déjà importés",
+        "Label": "Appliquer les illustrations",
+        "Hint": "Remplace les portraits et tokens des adversaires déjà présents dans le monde (et de leurs tokens posés sur les scènes) par les illustrations de ce module. Les illustrations de compendium ne s'appliquent qu'au moment de l'import."
+      }
+    },
+    "Priority": {
+      "Title": "Priorité des illustrations",
+      "Body": "D'autres modules fournissent des illustrations pour les adversaires Daggerheart et passent actuellement avant celui-ci :",
+      "Hint": "Ce module sera placé en premier pour les 108 adversaires qu'il couvre ; les autres adversaires gardent les illustrations des autres modules. Un rechargement du monde est nécessaire.",
+      "AlreadyTop": "Ce module est déjà prioritaire pour les illustrations de compendium.",
+      "Done": "Ce module est maintenant prioritaire pour les illustrations de compendium."
+    },
+    "Replace": {
+      "Title": "Appliquer les illustrations aux adversaires du monde",
+      "Summary": "{actors} adversaire(s) du monde et {tokens} token(s) posé(s) sur {scenes} scène(s) n'utilisent pas encore les illustrations de ce module.",
+      "Portraits": "Portraits des acteurs",
+      "Prototypes": "Tokens prototypes",
+      "Placed": "Tokens déjà posés sur les scènes ({count})",
+      "ActorList": "Voir les adversaires concernés",
+      "Hint": "Seuls les adversaires importés depuis le compendium Daggerheart et couverts par ce module sont modifiés.",
+      "Apply": "Appliquer",
+      "Done": "Illustrations appliquées : {actors} acteur(s), {tokens} token(s) sur les scènes.",
+      "NothingToDo": "Rien à faire : les {count} adversaire(s) du monde couverts par ce module utilisent déjà ses illustrations.",
+      "LoadError": "Impossible de charger le fichier de correspondances du module (voir la console).",
+      "GMOnly": "Seul un MJ peut appliquer les illustrations."
+    }
+  }
+}
