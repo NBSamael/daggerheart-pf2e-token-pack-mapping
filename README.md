@@ -1,6 +1,18 @@
-# Daggerheart PF2e Token Pack Mapping
+# Daggerheart PF2e Token Pack Mapping (NBSamael)
 
 Maps the art from the Pathfinder Tokens module to adversaries in the Daggerheart system from Foundryborne.
+
+This is a fork of [MechaMaya's module](https://github.com/mechamaya/daggerheart-pf2e-token-pack-mapping), published under its own id (`daggerheart-pf2e-token-pack-mapping-nbs`) so it can be installed alongside or instead of the original.
+
+## Installation
+
+In Foundry VTT, go to *Add-on Modules → Install Module* and paste this manifest URL:
+
+```
+https://github.com/NBSamael/daggerheart-pf2e-token-pack-mapping/releases/latest/download/module.json
+```
+
+## Requirements
 
 Requires art from several modules installed on your system:
 - [Pathfinder Tokens: Bestiaries](https://foundryvtt.com/packages/pf2e-tokens-bestiaries)

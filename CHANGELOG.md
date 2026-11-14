@@ -1,4 +1,14 @@
-# Daggerheart PF2e Token Pack Mapping
+# Daggerheart PF2e Token Pack Mapping (NBSamael)
+
+## v0.1.0
+- Version de référence du fork, basée sur la v0.11.1 de MechaMaya
+- Nouvel id de module : `daggerheart-pf2e-token-pack-mapping-nbs`
+- Manifeste adapté (auteurs, URLs de manifest, téléchargement et dépôt pointant vers ce fork)
+- Publication automatique sur foundryvtt.com désactivée dans le workflow de release
+
+---
+
+# Historique du module d'origine (MechaMaya)
 
 ## v0.11.1
 - Fixed a few tokens having incorrect scaling
