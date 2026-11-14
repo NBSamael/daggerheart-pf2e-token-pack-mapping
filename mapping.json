@@ -2448,19 +2448,19 @@
       }
     },
     "12TRnUh7RzLIn30r": {
-      "actor": "modules/pf2e-tokens-characters/assets/portraits/pc-human-berserker.webp",
+      "actor": "modules/pf2e-tokens-bestiaries/portraits/humanoid/werecreature/werebear.webp",
       "token": {
         "randomImg": false,
         "texture": {
-          "src": "modules/pf2e-tokens-characters/assets/tokens/pc-human-berserker.webp",
-          "scaleX": 2,
-          "scaleY": 2
+          "src": "modules/pf2e-tokens-bestiaries/tokens/humanoid/werecreature/werebear.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
         },
         "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-tokens-characters/assets/subjects/pc-human-berserker.webp",
-            "scale": 2
+            "texture": "modules/pf2e-tokens-bestiaries/subjects/humanoid/werecreature/werebear.webp",
+            "scale": 1.5
           }
         }
       }
