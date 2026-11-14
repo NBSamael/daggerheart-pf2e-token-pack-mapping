@@ -1,11 +1,11 @@
 /**
- * Daggerheart PF2e Token Pack Mapping (NBSamael)
+ * Daggerheart PF2e Token Pack Mapping Extended
  *
  * - Gives this module priority over other compendium art providers (e.g. daggerheart-core).
  * - Lets the GM re-apply this module's art to adversaries already imported into the world.
  */
 
-const MODULE_ID = "daggerheart-pf2e-token-pack-mapping-nbs";
+const MODULE_ID = "daggerheart-pf2e-token-pack-mapping-ext";
 const PACK_ID = "daggerheart.adversaries";
 const MAPPING_PATH = `modules/${MODULE_ID}/mapping.json`;
 

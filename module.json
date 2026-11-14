@@ -1,6 +1,6 @@
 {
-  "id": "daggerheart-pf2e-token-pack-mapping-nbs",
-  "title": "Daggerheart PF2e Token Pack Mapping (NBSamael)",
+  "id": "daggerheart-pf2e-token-pack-mapping-ext",
+  "title": "Daggerheart PF2e Token Pack Mapping Extended",
   "description": "Associe les illustrations des modules Pathfinder Tokens aux adversaires du système Daggerheart (Foundryborne). Fork du module de MechaMaya.",
   "version": "1.0.0",
   "authors": [
@@ -77,7 +77,7 @@
   "flags": {
     "compendiumArtMappings": {
       "daggerheart": {
-        "mapping": "modules/daggerheart-pf2e-token-pack-mapping-nbs/mapping.json",
+        "mapping": "modules/daggerheart-pf2e-token-pack-mapping-ext/mapping.json",
         "credit": "<em>Portrait and token artwork by Paizo.</em>"
       }
     }

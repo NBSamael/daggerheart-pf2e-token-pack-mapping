@@ -1,6 +1,7 @@
-# Daggerheart PF2e Token Pack Mapping (NBSamael)
+# Daggerheart PF2e Token Pack Mapping Extended
 
 ## v1.0.0
+- Module renommé « Daggerheart PF2e Token Pack Mapping Extended », nouvel id `daggerheart-pf2e-token-pack-mapping-ext` (désinstaller l'ancienne version `-nbs` et réinstaller via l'URL du manifeste)
 - 101 nouvelles correspondances pour des adversaires qui n'avaient qu'une illustration générique (46 équivalents directs, 55 approchants) ; 209 adversaires couverts au total
 
 ## v0.3.0
