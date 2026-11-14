@@ -13,8 +13,9 @@
       }
     },
     "Priority": {
-      "Title": "Priorité des illustrations",
-      "Body": "D'autres modules fournissent des illustrations pour les adversaires Daggerheart et passent actuellement avant celui-ci :",
+      "Title": "{module} — Priorité des illustrations",
+      "Body": "Le module {module} fournit des illustrations pour les adversaires Daggerheart, mais ces modules passent actuellement avant lui :",
+      "Question": "Donner la priorité à {module} ?",
       "Hint": "Ce module sera placé en premier pour les 108 adversaires qu'il couvre ; les autres adversaires gardent les illustrations des autres modules. Un rechargement du monde est nécessaire.",
       "AlreadyTop": "Ce module est déjà prioritaire pour les illustrations de compendium.",
       "Done": "Ce module est maintenant prioritaire pour les illustrations de compendium."

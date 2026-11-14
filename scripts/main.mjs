@@ -56,10 +56,12 @@ async function promptPriority({ firstRun = false } = {}) {
   const others = game.compendiumArt.getPackages()
     .filter(p => p.packageId !== MODULE_ID)
     .map(p => `<li>${foundry.utils.escapeHTML(p.title)}</li>`).join("");
+  const module = `<strong>${foundry.utils.escapeHTML(game.modules.get(MODULE_ID)?.title ?? MODULE_ID)}</strong>`;
   const confirmed = await foundry.applications.api.DialogV2.confirm({
-    window: { title: loc("Priority.Title"), icon: "fa-solid fa-ranking-star" },
+    window: { title: loc("Priority.Title", { module: game.modules.get(MODULE_ID)?.title ?? MODULE_ID }), icon: "fa-solid fa-ranking-star" },
     position: { width: 480 },
-    content: `<p>${loc("Priority.Body")}</p><ul>${others}</ul><p class="hint">${loc("Priority.Hint")}</p>`
+    content: `<p>${loc("Priority.Body", { module })}</p><ul>${others}</ul>`
+      + `<p>${loc("Priority.Question", { module })}</p><p class="hint">${loc("Priority.Hint")}</p>`
   });
   if ( !confirmed ) return;
   if ( await setTopPriority() ) {
