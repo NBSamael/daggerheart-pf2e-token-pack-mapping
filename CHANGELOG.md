@@ -1,5 +1,8 @@
 # Daggerheart PF2e Token Pack Mapping (NBSamael)
 
+## Unreleased
+- Compatibilité Foundry VTT v14 (vérifiée 14) et système Daggerheart 2.12.8 ; v13 toujours supportée
+
 ## v0.1.0
 - Version de référence du fork, basée sur la v0.11.1 de MechaMaya
 - Nouvel id de module : `daggerheart-pf2e-token-pack-mapping-nbs`
