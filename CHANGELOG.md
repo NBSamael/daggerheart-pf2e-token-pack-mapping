@@ -1,6 +1,6 @@
 # Daggerheart PF2e Token Pack Mapping (NBSamael)
 
-## Unreleased
+## v1.0.0
 - 101 nouvelles correspondances pour des adversaires qui n'avaient qu'une illustration générique (46 équivalents directs, 55 approchants) ; 209 adversaires couverts au total
 
 ## v0.3.0
