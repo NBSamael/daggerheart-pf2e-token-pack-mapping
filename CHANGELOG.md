@@ -1,6 +1,6 @@
 # Daggerheart PF2e Token Pack Mapping (NBSamael)
 
-## Unreleased
+## v0.3.0
 - Priorité sur les autres modules d'illustrations (ex. Daggerheart Core Rulebook) : proposée automatiquement à la première activation, et disponible via un bouton dans les paramètres du module
 - Nouveau bouton « Appliquer les illustrations » : remplace les portraits, tokens prototypes et tokens posés des adversaires déjà importés dans le monde
 - Traductions française et anglaise
