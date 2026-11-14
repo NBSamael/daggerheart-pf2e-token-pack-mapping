@@ -14,7 +14,7 @@ https://github.com/NBSamael/daggerheart-pf2e-token-pack-mapping/releases/latest/
 
 ## Settings
 
-- **Art priority**: other modules (such as *Daggerheart Core Rulebook*) can also provide art for Daggerheart adversaries. On first activation the module offers to take priority over them; you can also do it later with the *Give this module priority* button, or fine-tune the order in Core settings → *Compendium Art*. Only the 108 adversaries covered by this module are affected; the others keep the art from other modules.
+- **Art priority**: other modules (such as *Daggerheart Core Rulebook*) can also provide art for Daggerheart adversaries. On first activation the module offers to take priority over them; you can also do it later with the *Give this module priority* button, or fine-tune the order in Core settings → *Compendium Art*. Only the adversaries covered by this module are affected; the others keep the art from other modules.
 - **Already imported adversaries**: compendium art is only applied when an actor is imported. The *Apply art* button replaces the portraits, prototype tokens and placed tokens of adversaries already in your world (only those imported from the Daggerheart compendium and covered by this module).
 
 Both actions are also available to macros via `game.modules.get("daggerheart-pf2e-token-pack-mapping-nbs").api` (`promptPriority()`, `promptReplaceArt()`).

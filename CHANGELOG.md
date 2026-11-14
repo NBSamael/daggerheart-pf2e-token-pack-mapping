@@ -1,5 +1,8 @@
 # Daggerheart PF2e Token Pack Mapping (NBSamael)
 
+## Unreleased
+- 101 nouvelles correspondances pour des adversaires qui n'avaient qu'une illustration générique (46 équivalents directs, 55 approchants) ; 209 adversaires couverts au total
+
 ## v0.3.0
 - Priorité sur les autres modules d'illustrations (ex. Daggerheart Core Rulebook) : proposée automatiquement à la première activation, et disponible via un bouton dans les paramètres du module
 - Nouveau bouton « Appliquer les illustrations » : remplace les portraits, tokens prototypes et tokens posés des adversaires déjà importés dans le monde

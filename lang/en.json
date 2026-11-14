@@ -16,7 +16,7 @@
       "Title": "{module} — Art priority",
       "Body": "The {module} module provides art for Daggerheart adversaries, but these modules currently take precedence over it:",
       "Question": "Give priority to {module}?",
-      "Hint": "This module will be placed first for the 108 adversaries it covers; other adversaries keep the art from other modules. A world reload is required.",
+      "Hint": "This module will be placed first for the adversaries it covers; other adversaries keep the art from other modules. A world reload is required.",
       "AlreadyTop": "This module already has compendium art priority.",
       "Done": "This module now has compendium art priority."
     },
